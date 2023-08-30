@@ -1,0 +1,6 @@
+{
+    "txtEmail": "//*[@placeholder='Your email address']",
+    "txtPassword": "//*[@placeholder='Your password']",
+    "btnLogin": "//button[text()='Sign in']",
+    "lnkForgot": "//*[text()='Forgot password?']"
+}

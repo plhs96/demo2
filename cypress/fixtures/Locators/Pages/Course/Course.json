@@ -1,0 +1,4 @@
+{
+    "btnSetupRequire": "//span[contains(text(), 'Setup require')]/ancestor::button",
+    "ddSchoolYear": "//div[text() = 'Courses']//*[@role='button']"
+}

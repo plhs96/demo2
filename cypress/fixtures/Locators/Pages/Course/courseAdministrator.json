@@ -1,0 +1,7 @@
+{
+    "btnNew": "//button[text()='New']",
+    "txtCourseName": "//input[@placeholder='Enter name']",
+    "listbox": "//input[@placeholder='Enter name']/ancestor::*/following-sibling::*//input/preceding-sibling::*",
+    "iconNoRecord": "//*[text()='No results matched.']/parent::*",
+    "btnOption": "//tr/td[last()]//button"
+}

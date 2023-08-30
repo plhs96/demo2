@@ -1,0 +1,6 @@
+{
+    "txtSearch": "//input[@placeholder='Search']",
+    "txtFirstStudent": "//span[text()='Add students']/ancestor::h2/parent::div//ul/li//input",
+    "btnAdd": "//button[text()='Add']",
+    "btnCancel": "//button[text()='Cancel']"
+}

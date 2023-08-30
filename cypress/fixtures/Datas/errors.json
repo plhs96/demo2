@@ -1,0 +1,5 @@
+{
+    "emailRequire": "This information is required.",
+    "emailInvalid": "Please enter a valid email address (e.g. someone@example.com).",
+    "emailNotExit": "Sorry, your email address is not associated with any account. Please contact your school for assistance."
+}

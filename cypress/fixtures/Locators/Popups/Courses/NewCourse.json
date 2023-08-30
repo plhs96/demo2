@@ -1,0 +1,9 @@
+{
+    "popup": "//*[text()='New course']/parent::*/parent::*",
+    "txtName": "//*[text()='New course']/parent::*/parent::*//*[text()='Name']/parent::*/parent::*/following-sibling::*//input", 
+    "txtSubject": "//*[text()='New course']/parent::*/parent::*//*[text()='Subject']/parent::*/parent::*/following-sibling::*//input", 
+    "txtSchoolYear": "//*[text()='New course']/parent::*/parent::*//*[text()='School year']/parent::*/parent::*/following-sibling::*//input", 
+    "txtTerms": "//*[text()='New course']/parent::*/parent::*//*[text()='Terms']/parent::*/parent::*/following-sibling::*//input",
+    "btnCancel": "//button[text()='Cancel']",
+    "btnCreate": "//button[text()='Create']"
+}

@@ -1,0 +1,6 @@
+{
+    "txtSearch": "//input[@placeholder=('Select observers' or 'Select assistant teachers' or 'Select an option' or 'Search')]",
+    "btnAdd": "//button[text()='Add']",
+    "btnCancel": "//button[text()='Cancel']"
+    
+}

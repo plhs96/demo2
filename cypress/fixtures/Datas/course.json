@@ -1,0 +1,52 @@
+{
+    "course": {
+        "name": null,
+        "subject": "",
+        "schoolYear": "SCHOOL YEAR",
+        "term": "Semester 2"
+    },
+    "section": {
+        "name": null,
+        "url": null,
+        "locator": null,
+        "template": "",
+        "slot": ""
+    },
+    "students": [
+        {
+            "email": "student01@yopmail.com",
+            "password": "12345678"
+        }
+    ],
+    "teachers": {
+        "primary": {
+            "email": "teacher-primary@yopmail.com",
+            "password": "12345678",
+            "subject": [
+                "You have been added to ",
+                " as Primary Teacher"
+            ],
+            "content": "Please complete the setup by inputting your Syllabus and Grade Weighting so that the Students are aware of your expectation, and so Ella will assist schedule their schoolwork and improve their grades."
+        },
+        "assistant": [
+            {
+                "email": "teacher-assistant01@yopmail.com",
+                "password": "12345678"
+            },
+            {
+                "email": "teacher-assistant02@yopmail.com",
+                "password": "12345678"
+            }
+        ],
+        "observer": [
+            {
+                "email": "teacher-observer01@yopmail.com",
+                "password": "12345678"
+            },
+            {
+                "email": "teacher-observer02@yopmail.com",
+                "password": "12345678"
+            }
+        ]
+    }
+}

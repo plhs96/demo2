@@ -1,0 +1,6 @@
+{
+    "btnAddPrimaryTeacher": "//*[text()=('Add primary teacher')]/parent::*/preceding-sibling::*",
+    "btnAddAssistantTeacher": "//*[text()='Add assistant teacher']/parent::*/preceding-sibling::*",
+    "btnaddObserver": "//*[text()='Add Observer']/parent::*/preceding-sibling::*"
+
+}

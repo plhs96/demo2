@@ -1,0 +1,5 @@
+{
+    "txtEmail": "//input[@placeholder='Your email address']",
+    "btnNext": "//button[text()='Next']",
+    "lnkForgot": "//a[Forgot password?]"
+}

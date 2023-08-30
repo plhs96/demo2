@@ -1,0 +1,3 @@
+{
+    "btnAddStudent": "//button[text()='Add students']"
+}

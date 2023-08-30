@@ -1,0 +1,5 @@
+{
+    "popup": "//*[text()='Confirmation']/ancestor::h2/parent::*",
+    "btnCancel": "//button[text()='Cancel']",
+    "btnRemove": "//button[text()='Remove']"
+}

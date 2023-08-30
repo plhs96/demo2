@@ -1,0 +1,13 @@
+{
+    "popup": "//span[text()='New section & meeting times']/ancestor::h2/parent::*",
+    "btnCancel": "//button[text()='Cancel']",
+    "btnSave": "//button[text()='Save']",
+    "txtSectionName": "//*[@name='name']",
+    "txtLocation": "//*[@name='location'",
+    "txtUrl": "//*[text()='url']",
+    "dvMeetingTime": "//*[text()='Meeting times']/parent::*/div",
+    "txtDaily": "//*[text()='Daily template']/parent::*/parent::*/parent::*//input",
+    "txtSlot": "//*[text()='Time slot']/parent::*/parent::*/parent::*//input",
+    "btnDeleteMeetingTime": "//*[text()='delete']/parent::button",
+    "lkAddAnotherRow": "//a[text()='Add another row']"
+}

@@ -1,0 +1,68 @@
+{
+        "valid-multi-domain": {
+            "mail": "organization01@yopmail.com",
+            "password": "Password01",
+            "invalidPassword": "12345678",
+            "domain": "Organization STG",
+            "errorMessage": [
+                "This information is required.",
+                "The password you entered is incorrect."
+            ]
+        },
+        "invalid-one-domain": [
+            {
+                "mail": null,
+                "password": null,
+                "domain": "Single",
+                "errorMessage": "This information is required."
+            },
+            {
+                "mail": "organization01",
+                "password": null,
+                "domain": "Single",
+                "errorMessage": "Please enter a valid email address (e.g. someone@example.com)."
+            },
+            {
+                "mail": "mail-not-exit@mailinator.com",
+                "password": null,
+                "domain": "Single",
+                "errorMessage": "Sorry, your email address is not associated with any account. Please contact your school for assistance."
+            },
+            {
+                "mail": "user-lock-only@mailinator.com",
+                "password": null,
+                "domain": "Single",
+                "errorMessage": "You are requested to reset your password. Please check your user-lock-only@mailinator.com inbox for the password reset link."
+            },
+            {
+                "mail": "user-pending-only@mailinator.com",
+                "password": null,
+                "domain": "Single",
+                "errorMessage": "Check your user-pending-only@mailinator.com inbox for an invitation link to join the domain."
+            }
+        ],
+        "invalid-multi-domain": [
+            {
+                "mail": "user-lock@mailinator.com",
+                "password": null,
+                "domain": "Organization STG",
+                "errorMessage": "You are requested to reset your password. Please check your user-lock@mailinator.com inbox for the password reset link."
+            },
+            {
+                "mail": "user-pending@mailinator.com",
+                "password": null,
+                "domain": "Organization STG",
+                "errorMessage": "Check your user-pending@mailinator.com inbox for an invitation link to join the domain."
+            }
+        ],
+        "valid-one-domain": {
+            "mail": "student29@yopmail.com",
+            "password": "Password01",
+            "domain": "Single"
+        },
+        "course-admin": {
+            "mail": "organization01@yopmail.com",
+            "password": "Password01",
+            "domain": "Organization STG"
+        }
+}

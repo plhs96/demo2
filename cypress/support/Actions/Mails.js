@@ -1,0 +1,15 @@
+Cypress.Commands.add('checkYopMail', (mail, courseName) => {
+   cy.origin('https://yopmail.com/', { args: { mail: mail, courseName: courseName } }, ({ mail, courseName }) => {
+      Cypress.require('cypress-xpath')
+      Cypress.require('cypress-iframe')
+      const MailLocator = Cypress.require('../../fixtures/Locators/Pages/Mail.json')
+      const DataCourse = Cypress.require('../../fixtures/Datas/course.json')
+      cy.visit('')
+      cy.xpath(MailLocator.yopmail.txtEmail).focus().clear().type(mail).blur()
+      cy.xpath(MailLocator.yopmail.btnGo).click()
+      cy.iframe('#ifinbox').xpath(MailLocator.yopmail.txtMailItem).eq(0).click()
+      cy.iframe('#ifmail').xpath("//*[text()='"+DataCourse.teachers.primary.subject[0] + '"' + courseName + '"' + DataCourse.teachers.primary.subject[1] +"']").should('have.length', 1)
+      cy.iframe('#ifmail').xpath("//*[contains(text(), '"+DataCourse.teachers.primary.content +"')]").should('have.length', 1)
+      cy.iframe('#ifmail').xpath("//a[text()='Set up the course']").should('have.length', 1)
+   })
+})

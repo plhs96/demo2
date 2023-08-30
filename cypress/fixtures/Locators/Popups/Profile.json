@@ -1,0 +1,3 @@
+{
+    "btnLogout": "//*[text()='Log out']/parent::*"
+}

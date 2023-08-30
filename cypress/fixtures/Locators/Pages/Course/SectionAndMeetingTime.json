@@ -1,0 +1,6 @@
+{
+    "btnNew": "//button[text()='New']",
+    "btnEdit": "//button[text()='Edit']",
+    "btnRemove": "//button[text()='Remove']",
+    "progressbar": "//*[@role='progressbar']"
+}

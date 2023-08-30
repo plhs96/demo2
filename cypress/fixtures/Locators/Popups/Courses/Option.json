@@ -1,0 +1,4 @@
+{
+    "btnViewEdit": "//*[text()='View & Edit']/parent::*",
+    "btnRemove": "//*[text()='Remove']"
+}

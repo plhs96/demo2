@@ -1,0 +1,6 @@
+{
+    "tagEqualOpen": "//*[text()= '",
+    "tagContainOpen": "//*[contains(text(), '",
+    "tagEqualClose": "']",
+    "tagContainClose": "')]"
+}

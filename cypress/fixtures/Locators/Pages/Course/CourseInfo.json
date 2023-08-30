@@ -1,0 +1,3 @@
+{
+    "btnBack": "//span[text()='Course administration']/preceding-sibling::button"
+}

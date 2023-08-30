@@ -1,0 +1,9 @@
+{
+    "tbBasicInformation": "//*[text()='Basic information']/ancestor::button",
+    "tbSectionMeetingTime": "//*[text()='Sections & Meeting times']/ancestor::button",
+    "tbAssessmentMethod": "//*[text()='Assessment method']/ancestor::button",
+    "tbStudent": "//*[text()='Students']/ancestor::button",
+    "tbTeacher": "//*[text()='Teachers']/ancestor::button",
+    "tbGradeWeighting": "//*[text()='Grade weighting']/ancestor::button",
+    "tbSyllabus": "//*[text()='Syllabus']/ancestor::button"
+}

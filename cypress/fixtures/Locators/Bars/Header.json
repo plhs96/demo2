@@ -1,0 +1,3 @@
+{
+    "btnAvatar": "//img[@alt='ella_logo']/parent::*/following-sibling::*//button"
+}
