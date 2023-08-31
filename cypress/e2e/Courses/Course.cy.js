@@ -57,7 +57,7 @@ describe('Course Administrator', () => {
     LoginPrmaryDomain(LoginData["course-admin"].mail, LoginData["course-admin"].domain, LoginData["course-admin"].password)
     SearchCourse(courseName)
   })
-  it.only('Create Course Draft e2e', () => {
+  it('Create Course Draft e2e', () => {
     cy.checkExit(CourseAdministratorLocator.iconNoRecord)
     CreateCourse()
     cy.checkLabel("This information is required.", 4)
@@ -177,7 +177,7 @@ describe('Course Administrator', () => {
     })
   })
 
-  it.only('Add Assistant Teacher in Course',()=>{
+  it('Add Assistant Teacher in Course',()=>{
     ViewCourseDetail()
     GotoTeacher()
     AddAssistantTeacher(assistantTeachers)
