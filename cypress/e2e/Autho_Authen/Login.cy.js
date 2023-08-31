@@ -1,4 +1,4 @@
-require('../../support/Actions/Autho_Authen/Login')
+require('../../support/Actions/Autho_Authen')
 const Link = require('../../fixtures/Datas/Link.json')
 const Locator = require('../../fixtures/Locators/General.json')
 const Data = require('../../fixtures/Datas/Login.json')
